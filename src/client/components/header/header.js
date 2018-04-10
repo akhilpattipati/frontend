@@ -35,7 +35,7 @@ class Header extends Component {
                                 <a className="help-inline" href="#">Forgot password?</a>
                             </fieldset>
                             &nbsp;&nbsp;
-                            <input className="btn btn-danger my-2 my-sm-0" type="submit" value="Submit"/>
+                            <input className="btn btn-danger my-2 my-sm-0" type="submit" value="Login"/>
                         </form>
                         &nbsp;&nbsp;&nbsp;&nbsp;
                         <button type="button" id="facebookButton" className="btn btn-primary" onClick={this.facebookLogin}>Facebook</button>
