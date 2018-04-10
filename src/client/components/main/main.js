@@ -1,69 +1,17 @@
-import React,{Component} from 'react';
+import React, {Component} from 'react';
 
-class Main extends Component{
+import "../../layout/layout.css";
 
-    render(){
+class Main extends Component {
 
-        return(
+    render() {
 
-        <div class = "main">
-
-            <div class = "subM">
-
-
-                <div class = "">
-
-                    <div>
-
-
-
-
-                        <div class="lm">
-                            <label>Welcome to Biggest Travel Social...</label>
-                        </div>
-
-
-
-
-                    </div>
-
-
-
-
-
-
-                </div>
-
-
-
-
-
+        return (
+            <div>
+                <h2 className="text-white tag ">Welcome to the Biggest Travel Social Network</h2>
             </div>
-
-
-
-
-        </div>
-
-
-
-
-
-
         );
-
-
-
-
-
-
-
     }
-
-
-
-
-
 }
 
 export default Main;

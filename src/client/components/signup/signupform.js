@@ -1,63 +1,41 @@
-import React,{Component} from 'react';
-class Signupform extends Component{
+import React, {Component} from 'react';
 
-    render(){
+class Signupform extends Component {
 
-        return(
-            <div className="wrapper">
-           <div >
-            <div class="lm1">
-            <div className="row">
-                <div className="signup">
-                    <h1>Sign Up</h1>
+    render() {
 
-                </div>
-                <form >
-                    <div className="col-sm-9">
-                        <div className="row">
-                            <div className="col-sm-6 form-group">
-                                <input ref="first_name" type="text" placeholder="First name"
-                                       className="form-control"/>
-                            </div>
-                            <div className="col-sm-6 form-group">
-                                <input ref="last_name" type="text" placeholder="Last name"
-                                       className="form-control"/>
-                            </div>
-                        </div>
-
-
+        return (
+            <div>
+                <form className="bg-light signupform">
+                    <fieldset>
+                        <legend>Sign Up</legend>
                         <div className="form-group">
-                            <input type="text" placeholder="Email or mobile number" ref="email"
-                                   className="form-control"/>
+                            <input type="email" className="form-control" id="exampleInputEmail1"
+                                   aria-describedby="emailHelp" placeholder="Email address"/>
+                            <small id="emailHelp" className="form-text text-muted">We'll never share your email with
+                                anyone else.
+                            </small>
                         </div>
                         <div className="form-group">
-                            <input type="password" placeholder="New password" ref="password"
-                                   className="form-control"/>
+                            <input type="password" className="form-control" id="exampleInputPassword1"
+                                   placeholder="Password"/>
                         </div>
-                        <button type="submit" className="btn btn-md btn-success">Sign Up</button>
-
-
-                    </div>
+                        <div className="form-group">
+                            <input type="date" placeholder="Date Of Birth" className="form-control"/>
+                        </div>
+                        <div className="form-group">
+                            <select type="gender" placeholder="Gender" className="form-control">
+                                <option value="female">Female</option>
+                                <option value="male">Male</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <input type="submit" className="btn btn-primary" value="Sign Up"/>
+                    </fieldset>
                 </form>
             </div>
-
-            </div>
-</div>
-            </div>
-
         );
-
-
-
-
-
-
     }
-
-
-
-
-
 }
 
 export default Signupform;

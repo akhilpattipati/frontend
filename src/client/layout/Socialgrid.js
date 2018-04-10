@@ -3,10 +3,7 @@ import React,{Component} from 'react';
 class Socialgrid extends Component{
 
     render(){
-
-
                 return(
-
                      <div>
 
                          <nav>
