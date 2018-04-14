@@ -1,4 +1,5 @@
 import React,{Component} from 'react';
+import Navbanner from "../components/navbar/navBanner";
 
 class Socialgrid extends Component{
 
@@ -7,9 +8,11 @@ class Socialgrid extends Component{
                      <div>
 
                          <nav>
+                             <Navbanner/>
 
-                             Navbar component
                          </nav>
+
+
                          <div>
 
 
@@ -58,3 +61,4 @@ class Socialgrid extends Component{
 
 
 }
+export default Socialgrid;

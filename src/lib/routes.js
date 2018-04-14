@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 
 import {BrowserRouter, Route, Link} from 'react-router-dom';
 import Landinpage from "../client/layout/landingpage";
+import Socialgrid from "../client/layout/Socialgrid";
+import Postsignup from "../client/layout/postsignup";
 
 class Routes extends Component{
 
@@ -16,6 +18,9 @@ class Routes extends Component{
                 <div>
 
                     <Route path = "/" exact component = {Landinpage}/>
+                    <Route path = "/social" exact component = {Socialgrid}/>
+                   < Route path = "/postsignup" exact component = {Postsignup}/>
+
 
 
 
