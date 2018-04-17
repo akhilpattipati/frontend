@@ -7,7 +7,7 @@ import Main from "../components/main/main";
 class Landinpage extends Component {
     render() {
         return (
-            <div className="landingpage">
+            <div className="landingpage" id="landing_bg" >
                 <Header/>
                 <div className="container">
                     <div className="row">
@@ -19,6 +19,7 @@ class Landinpage extends Component {
                         </div>
                     </div>
                 </div>
+                <br/><br/><br/><br/><br/><br/><br/>
             </div>
         );
     }

@@ -6,16 +6,10 @@ class Searchform extends Component{
         return(
             <div>
 
-
-                <form className="navbar-form navbar-left" role="search">
-                    <div className="form-group form-inline my-2 my-lg-0 float-right">
-                        <input type="text" className="form-control"  placeholder="Search"/>
-                    </div>
-
+                <form className="form-inline my-2 my-lg-0">
+                    <input className="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit"><i className="fa fa-search"></i></button>
                 </form>
-
-
-
             </div>
 
         );

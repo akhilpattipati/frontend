@@ -1,6 +1,16 @@
 import React, {Component} from 'react';
+import {Link} from 'react-dom';
 
 class Signupform extends Component {
+    constructor() {
+        super();
+        this.handleClick = this.handleClick.bind(this);
+    }
+    handleClick(e) {
+        e.preventDefault();
+        this.props.history.push('/');
+    }
+
 
     render() {
 
@@ -30,7 +40,9 @@ class Signupform extends Component {
                                 <option value="other">Other</option>
                             </select>
                         </div>
-                        <input type="submit" className="btn btn-primary" value="Sign Up"/>
+
+                        <input type="submit" className="btn btn-primary" value="Sign Up" onClick={this.handleClick}/>
+
                     </fieldset>
                 </form>
             </div>

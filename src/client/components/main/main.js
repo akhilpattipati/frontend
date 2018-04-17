@@ -8,7 +8,7 @@ class Main extends Component {
 
         return (
             <div>
-                <h2 className="text-black tag ">Welcome to the Biggest Travel Social Network</h2>
+                <h2 className="text-white tag ">Welcome to the Biggest Travel Social Network</h2>
             </div>
         );
     }

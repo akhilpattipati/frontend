@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
 
 import "../../layout/layout.css";
+import GoogleLogin from "../../containers/GoogleLogin/Googlelogin";
 
 class Header extends Component {
+
 
     render() {
         return (
@@ -41,6 +43,7 @@ class Header extends Component {
                         <button type="button" id="facebookButton" className="btn btn-primary" onClick={this.facebookLogin}>Facebook</button>
                         &nbsp;&nbsp;
                         <button type="button" id="googleButton" className="btn btn-danger" onClick={this.googleLogin}>Google</button>
+
                     </div>
                 </nav>
             </div>

@@ -1,64 +1,31 @@
-import React,{Component} from 'react';
+import React, {Component} from 'react';
 import Navbanner from "../components/navbar/navBanner";
 
-class Socialgrid extends Component{
+class Socialgrid extends Component {
 
-    render(){
-                return(
-                     <div>
+    render() {
+        return (
+            <div>
 
-                         <nav>
-                             <Navbanner/>
+                <nav>
+                    <Navbanner/>
 
-                         </nav>
-
-
-                         <div>
+                </nav>
 
 
+                <div>
+
+                </div>
 
 
+            </div>
 
 
-
-
-
-
-
-
-
-                         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                     </div>
-
-
-
-
-                );
-
-
-
-
-
-
+        );
 
     }
 
 
 }
+
 export default Socialgrid;
