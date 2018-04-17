@@ -2,18 +2,16 @@ import React, {Component} from 'react';
 import {Link} from 'react-dom';
 
 class Signupform extends Component {
-    constructor() {
-        super();
-        this.handleClick = this.handleClick.bind(this);
-    }
-    handleClick(e) {
-        e.preventDefault();
-        this.props.history.push('/');
-    }
+
 
 
     render() {
+        function handleClick(e) {
+            e.preventDefault();
+            console.log('the link is clicke');
+            window.location = '../postsignup';
 
+        }
         return (
             <div>
                 <form className="bg-light signupform">
@@ -41,7 +39,7 @@ class Signupform extends Component {
                             </select>
                         </div>
 
-                        <input type="submit" className="btn btn-primary" value="Sign Up" onClick={this.handleClick}/>
+                        <input type="submit" className="btn btn-primary" value="Sign Up" onClick={handleClick}/>
 
                     </fieldset>
                 </form>
