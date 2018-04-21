@@ -9,7 +9,7 @@ class Socialgrid extends Component {
         return (
             <div>
 
-                <nav className= "fixed-top">
+                <nav className="fixed-top">
                     <Navbanner/>
 
                 </nav>
