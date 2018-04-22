@@ -10,11 +10,16 @@ class Postsignupbutton extends Component{
 
     render(){
 
+        function handleClick(e) {
+            e.preventDefault();
+            console.log('the link is clicke');
+            window.location = '../usertimeline';}
+
         return(
             <div className="PostSignup ">
 
 
-                <button class="btn btn-primary" id= "PostSubmit" type="submit">Submit form</button>
+                <button className="btn btn-primary" id= "PostSubmit" type="submit" onClick={handleClick}>Submit form</button>
 
             </div>
         );

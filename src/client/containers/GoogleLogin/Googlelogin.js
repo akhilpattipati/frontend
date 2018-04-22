@@ -67,4 +67,3 @@ class GoogleLogin extends Component{
 
 }
 
-export default GoogleLogin;

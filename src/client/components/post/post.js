@@ -8,7 +8,7 @@ class Post extends Component {
             <div>
                 <div className="container">
                     <div className="page-header text-center">
-                        <h1 id="timeline">This is lit AF</h1>
+                        <h1 id="timeline"> </h1>
                     </div>
                     <ul className="timeline">
                         <li>

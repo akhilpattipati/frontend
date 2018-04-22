@@ -7,7 +7,7 @@ class Usercover extends Component {
         return (
 
             <div className="container ">
-                <div className="col-md-9">
+                <div className="col-md-10">
                     <div className="profile clearfix">
                         <div className="image">
                             <img src="https://lorempixel.com/700/300/nature/3/" className="img-cover"/>
