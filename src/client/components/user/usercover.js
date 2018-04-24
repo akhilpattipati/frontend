@@ -10,12 +10,12 @@ class Usercover extends Component {
                 <div className="col-md-10">
                     <div className="profile clearfix">
                         <div className="image">
-                            <img src="https://lorempixel.com/700/300/nature/3/" className="img-cover"/>
+                            <img src="https://lorempixel.com/700/300/nature/3/" className="img-cover" alt=""/>
                         </div>
                         <div className="user clearfix">
                             <div className="avatar">
                                 <img src="https://bootdey.com/img/Content/user-453533-fdadfd.png"
-                                     className="img-thumbnail img-profile"/>
+                                     className="img-thumbnail img-profile" alt=""/>
                             </div>
                             <h2>Akhil Pattipati</h2>
                             <div className="actions">

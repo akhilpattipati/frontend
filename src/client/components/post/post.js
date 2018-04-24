@@ -15,7 +15,7 @@ class Post extends Component {
                             <div className="timeline-badge primary"><a><i className="glyphicon glyphicon-record" rel="tooltip" title="11 hours ago via Twitter" id /></a></div>
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
-                                    <img className="img-responsive" src="http://lorempixel.com/500/500/sports/2" />
+                                    <img className="img-responsive" src="http://lorempixel.com/500/500/sports/2"  alt=""/>
                                 </div>
                                 <div className="timeline-body">
                                     <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
@@ -31,7 +31,7 @@ class Post extends Component {
                             <div className="timeline-badge primary"><a><i className="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id /></a></div>
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
-                                    <img className="img-responsive" src="http://lorempixel.com/500/500/sports/2" />
+                                    <img className="img-responsive" src="http://lorempixel.com/500/500/sports/2" alt=""/>
                                 </div>
                                 <div className="timeline-body">
                                     <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
@@ -47,7 +47,7 @@ class Post extends Component {
                             <div className="timeline-badge primary"><a><i className="glyphicon glyphicon-record" rel="tooltip" title="11 hours ago via Twitter" id /></a></div>
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
-                                    <img className="img-responsive" src="http://lorempixel.com/500/500/sports/2" />
+                                    <img className="img-responsive" src="http://lorempixel.com/500/500/sports/2" alt=""/>
                                 </div>
                                 <div className="timeline-body">
                                     <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
@@ -76,7 +76,7 @@ class Post extends Component {
                             <div className="timeline-badge primary"><a><i className="glyphicon glyphicon-record" rel="tooltip" title="11 hours ago via Twitter" id /></a></div>
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
-                                    <img className="img-responsive" src="http://lorempixel.com/500/500/sports/2" />
+                                    <img className="img-responsive" src="http://lorempixel.com/500/500/sports/2" alt=""/>
                                 </div>
                                 <div className="timeline-body">
                                     <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>

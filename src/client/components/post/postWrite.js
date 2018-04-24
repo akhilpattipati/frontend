@@ -4,15 +4,15 @@ class Postwrite extends Component {
 
     render() {
              return(
-                 <div  class="col-md-7 col-md-offset-2 container">
+                 <div  className="col-md-7 col-md-offset-2 container">
                      <div className="panel">
                          <div className="panel-body">
                              <textarea className="form-control" rows={2} placeholder="What are you thinking?" defaultValue={""} />
                              <div className="mar-top clearfix">
                                  <button className="btn btn-sm btn-primary pull-right" type="submit"><i className="fa fa-pencil fa-fw" /> Share</button>
-                                 <a className="btn btn-trans btn-icon fa fa-video-camera add-tooltip" href="#" data-original-title="Add Video" data-toggle="tooltip" />
-                                 <a className="btn btn-trans btn-icon fa fa-camera add-tooltip" href="#" data-original-title="Add Photo" data-toggle="tooltip" />
-                                 <a className="btn btn-trans btn-icon fa fa-file add-tooltip" href="#" data-original-title="Add File" data-toggle="tooltip" />
+                                 {/*<a className="btn btn-trans btn-icon fa fa-video-camera add-tooltip" href="" data-original-title="Add Video" data-toggle="tooltip" />*/}
+                                 {/*<a className="btn btn-trans btn-icon fa fa-camera add-tooltip" href="" data-original-title="Add Photo" data-toggle="tooltip" />*/}
+                                 {/*<a className="btn btn-trans btn-icon fa fa-file add-tooltip" href="" data-original-title="Add File" data-toggle="tooltip" />*/}
                              </div>
                          </div>
                      </div>

@@ -8,9 +8,9 @@ class Navbanner extends Component{
         <div>
 
             <nav className="navbar navbar-expand-lg navbar-light bg-dark">
-                <a className="navbar-brand text-white" href="#">
+                <a className="navbar-brand text-white" href="">
                     <img src="http://webpage.pace.edu/as03681n/logo.png" width={30} height={30}
-                         className="d-inline-block align-top" alt/>
+                         className="d-inline-block align-top" alt={""}/>
                     &nbsp;&nbsp;TravelStories
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse"

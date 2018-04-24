@@ -2,14 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86805f0a-7cab-43e6-9cd6-a96cea0fd676" name="Default" comment="commiting before implementing ajax call.">
-      <change afterPath="$PROJECT_DIR$/src/client/containers/GoogleLogin/GoogleApi.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/header/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/navbar/navBanner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/navbar/navBanner.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/components/post/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/post/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client/components/postsignup/Submitbutton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/postsignup/Submitbutton.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/post/postWrite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/post/postWrite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/postsignup/Post_Signupform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/postsignup/Post_Signupform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/components/signup/signupform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/signup/signupform.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/components/user/usercover.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/components/user/usercover.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/containers/GoogleLogin/GoogleApi.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/containers/GoogleLogin/GoogleApi.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/client/containers/GoogleLogin/Googlelogin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/containers/GoogleLogin/Googlelogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/client/layout/postsignup.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/client/layout/postsignup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/routes.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,26 +32,11 @@
       <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/components/header/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="searchform.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/components/navbar/searchform.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signupform.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/components/signup/signupform.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <state relative-caret-position="-731">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,17 +44,41 @@
       <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lib/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="60">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Submitbutton.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/components/postsignup/Submitbutton.js">
+      <file leaf-file-name="postsignup.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/layout/postsignup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="220">
+              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postWrite.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/components/post/postWrite.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -80,20 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Googlelogin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/client/containers/GoogleLogin/Googlelogin.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1380">
-              <caret line="69" selection-start-line="69" selection-end-line="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GoogleApi.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/client/containers/GoogleLogin/GoogleApi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="123">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -101,8 +107,20 @@
       <file leaf-file-name="usercover.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/components/user/usercover.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="12" column="107" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Post_Signupform.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/client/components/postsignup/Post_Signupform.js">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -113,8 +131,8 @@
       <file leaf-file-name="post.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/client/components/post/post.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="260">
+              <caret line="49" column="118" selection-start-line="49" selection-start-column="118" selection-end-line="49" selection-end-column="118" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -140,15 +158,16 @@
       <find>h1</find>
       <find>signup</find>
       <find>wrapper</find>
-      <find>class</find>
       <find>col-sm-10</find>
       <find>col-sm-2</find>
       <find>offset-1</find>
       <find>600</find>
+      <find>alt</find>
+      <find>class</find>
     </findStrings>
     <replaceStrings>
-      <replace>className</replace>
       <replace>500</replace>
+      <replace>className</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -164,27 +183,27 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/client/components/navbar/nav.js" />
         <option value="$PROJECT_DIR$/src/client/components/navbar/searchbar.js" />
-        <option value="$PROJECT_DIR$/src/client/layout/postsignup.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/lib/routes.js" />
-        <option value="$PROJECT_DIR$/src/client/components/header/header.js" />
         <option value="$PROJECT_DIR$/src/client/components/main/main.js" />
         <option value="$PROJECT_DIR$/src/client/components/navbar/searchform.js" />
         <option value="$PROJECT_DIR$/src/client/components/postsignup/Post_Signup.css" />
-        <option value="$PROJECT_DIR$/src/client/components/postsignup/Post_Signupform.js" />
-        <option value="$PROJECT_DIR$/src/client/components/signup/signupform.js" />
-        <option value="$PROJECT_DIR$/src/client/components/post/postWrite.js" />
         <option value="$PROJECT_DIR$/src/client/components/post/postWrite.css" />
         <option value="$PROJECT_DIR$/src/client/components/post/post.css" />
         <option value="$PROJECT_DIR$/src/client/layout/Socialgrid.js" />
         <option value="$PROJECT_DIR$/src/client/layout/layout.css" />
         <option value="$PROJECT_DIR$/src/client/layout/landingpage.js" />
+        <option value="$PROJECT_DIR$/src/client/components/postsignup/Submitbutton.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/client/components/navbar/navBanner.js" />
-        <option value="$PROJECT_DIR$/src/client/components/post/post.js" />
-        <option value="$PROJECT_DIR$/src/client/components/postsignup/Submitbutton.js" />
-        <option value="$PROJECT_DIR$/src/client/components/user/usercover.js" />
         <option value="$PROJECT_DIR$/src/client/containers/GoogleLogin/Googlelogin.js" />
+        <option value="$PROJECT_DIR$/src/client/components/signup/signupform.js" />
+        <option value="$PROJECT_DIR$/src/lib/routes.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/client/components/post/post.js" />
+        <option value="$PROJECT_DIR$/src/client/components/user/usercover.js" />
+        <option value="$PROJECT_DIR$/src/client/components/postsignup/Post_Signupform.js" />
+        <option value="$PROJECT_DIR$/src/client/layout/postsignup.js" />
+        <option value="$PROJECT_DIR$/src/client/components/header/header.js" />
+        <option value="$PROJECT_DIR$/src/client/components/post/postWrite.js" />
         <option value="$PROJECT_DIR$/src/client/containers/GoogleLogin/GoogleApi.js" />
       </list>
     </option>
@@ -205,11 +224,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="813" />
+    <option name="y" value="252" />
+    <option name="width" value="1118" />
+    <option name="height" value="843" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -326,6 +345,19 @@
               <item name="containers" type="462c0819:PsiDirectoryNode" />
               <item name="GoogleLogin" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="frontend" type="b2602c69:ProjectViewProjectNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -382,16 +414,19 @@
       <workItem from="1524416980580" duration="326000" />
       <workItem from="1524417647946" duration="5916000" />
       <workItem from="1524433253723" duration="1269000" />
+      <workItem from="1524437562503" duration="3058000" />
+      <workItem from="1524573230341" duration="3394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83842000" />
+    <option name="totallyTimeSpent" value="90294000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1552" height="840" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.24884489" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.19960344" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
@@ -399,7 +434,7 @@
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info id="npm" order="0" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.328125" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.32905984" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -438,10 +473,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/lib/routes.js">
+    <entry file="file://$PROJECT_DIR$/src/client/components/post/post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="180">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -605,24 +643,10 @@
         <state relative-caret-position="-567" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/components/postsignup/Post_Signup.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/components/postsignup/Post_Signupform.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -633,24 +657,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/components/post/postWrite.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/components/post/post.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4471">
           <caret line="263" column="37" selection-start-line="263" selection-start-column="37" selection-end-line="263" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/layout/postsignup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -675,20 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/components/navbar/navBanner.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/layout/Userlayout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -696,41 +692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/components/header/header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/components/navbar/searchform.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/components/signup/signupform.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/components/post/post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -744,10 +709,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/components/user/usercover.js">
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="44" column="58" selection-start-line="44" selection-start-column="58" selection-end-line="44" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/components/navbar/navBanner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/containers/GoogleLogin/Googlelogin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="47" column="46" lean-forward="true" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/components/signup/signupform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/components/user/usercover.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="12" column="107" selection-start-line="12" selection-start-column="107" selection-end-line="12" selection-end-column="107" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/components/postsignup/Post_Signupform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/layout/postsignup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/components/post/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="49" column="118" selection-start-line="49" selection-start-column="118" selection-end-line="49" selection-end-column="118" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -761,17 +801,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/client/containers/GoogleLogin/Googlelogin.js">
+    <entry file="file://$PROJECT_DIR$/src/client/components/post/postWrite.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1380">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="240">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/components/header/header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-731">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/client/containers/GoogleLogin/GoogleApi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="123">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
         </state>
       </provider>
     </entry>

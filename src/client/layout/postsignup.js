@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import './layout.css'
-import Post_Signupform from "../components/postsignup/Post_Signupform";
+import PostSignupform from "../components/postsignup/Post_Signupform";
 import Postsignupbutton from "../components/postsignup/Submitbutton";
 import Navbanner from "../components/navbar/navBanner";
 class Postsignup extends Component{
@@ -13,7 +13,7 @@ class Postsignup extends Component{
                     <Navbanner/>
                 </header>
               <main>
-                  <Post_Signupform/>
+                  <PostSignupform/>
                   <Postsignupbutton />
               </main>
 
