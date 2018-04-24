@@ -2,29 +2,13 @@ import React, {Component} from 'react';
 
 import "../../layout/layout.css";
 //import GoogleLogin from "../../containers/GoogleLogin/Googlelogin";
-import $ from 'jquery'
+
+import  {Login} from "../../containers/Login/login";
 class Header extends Component {
 
 
     render() {
-        function onClickLogin() {
-            console.log("working!");
-           // $(function() {
-                var email="akhil.pattipati1@gmail.com";
-                var pass="akhil1234";
-                var  login_object = {username:email, password:pass};
 
-                $.ajax({
-                    type: "POST",
-                    data: JSON.stringify(login_object),
-                    url: "http://127.0.0.1:8000/userProfile/login/",
-                    contentType: "application/json; charset=utf-8",
-                    success: function(data) {
-                        console.log(data);
-                    }
-                });
-           // });
-        }
         return (
             <div>
                 <nav className="navbar navbar-expand-lg navbar-light bg-dark">
@@ -55,7 +39,7 @@ class Header extends Component {
                                 <a className="help-inline" href="">Forgot password?</a>
                             </fieldset>
                             &nbsp;&nbsp;
-                            <input className="btn btn-danger my-2 my-sm-0" type="submit" value="Login" onClick={onClickLogin}/>
+                            <input className="btn btn-danger my-2 my-sm-0" type="submit" value="Login" onClick={Login()}/>
                         </form>
                         &nbsp;&nbsp;&nbsp;&nbsp;
                         <button type="button" id="facebookButton" className="btn btn-primary" onClick={this.facebookLogin}>Facebook</button>
