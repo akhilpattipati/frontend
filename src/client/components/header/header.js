@@ -4,6 +4,7 @@ import "../../layout/layout.css";
 //import GoogleLogin from "../../containers/GoogleLogin/Googlelogin";
 
 import  {Login} from "../../containers/Login/login";
+import Socialbuttons from "./Socialbuttons";
 class Header extends Component {
 
 
@@ -41,11 +42,7 @@ class Header extends Component {
                             &nbsp;&nbsp;
                             <input className="btn btn-danger my-2 my-sm-0" type="submit" value="Login" onClick={Login()}/>
                         </form>
-                        &nbsp;&nbsp;&nbsp;&nbsp;
-                        <button type="button" id="facebookButton" className="btn btn-primary" onClick={this.facebookLogin}>Facebook</button>
-                        &nbsp;&nbsp;
-                        <button type="button" id="googleButton" className="btn btn-danger" onClick={this.googleLogin}>Google</button>
-
+                      <Socialbuttons/>
                     </div>
                 </nav>
             </div>
