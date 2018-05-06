@@ -8,7 +8,7 @@ class Navbanner extends Component{
 
             function handleClick(e) {
                 e.preventDefault();
-                console.log('the link is clicke');
+                console.log('the link is click');
                 window.location = '../social';
 
             }

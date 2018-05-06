@@ -4,55 +4,40 @@ import Usercover from "../components/user/usercover";
 import Usertimeline from "../components/user/usertimeline";
 
 
-class Userlayout extends Component{
+class Userlayout extends Component {
 
-    render(){
+    render() {
 
-        return(
+        return (
             <div>
                 <nav className="fixed-top">
-            <Navbanner/>
+                    <Navbanner/>
 
                 </nav>
                 <body>
 
-                    <br/>
-                <div className= "container ">
+                <br/>
+                <div className="container ">
                     <br/><br/>
 
-                   &nbsp; <Usercover/>
+                    &nbsp; <Usercover/>
 
                     <Usertimeline/>
-
-
-
 
 
                 </div>
 
 
-
-
-
                 </body>
-
-
-
-
-
 
 
             </div>
         );
 
 
-
-
     }
 
 
-
-
-
 }
+
 export default Userlayout;
